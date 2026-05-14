@@ -1,4 +1,4 @@
-# AI Course Finder
+# AI Course Finder Chatbot
 
 An AI-powered chatbot built using [n8n] that helps users discover the best online courses based on their interests, skill level, preferred platform, and career goals.
 
