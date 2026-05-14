@@ -1,61 +1,64 @@
-# AI Course finder Chatbot
-An AI-powered chatbot built using n8n
- that helps users discover the best online courses based on their interests, skill level, preferred learning platform, and career goals.
+# AI Course Finder
 
-Unlike many AI recommendation systems that overwhelm users with too many options or provide incomplete information, this chatbot is designed to give users a clear, structured, and complete overview of a course in a single response. Instead of making users repeatedly ask follow-up questions, the chatbot delivers everything important upfront — helping users make faster and smarter learning decisions.
+An AI-powered chatbot built using [n8n] that helps users discover the best online courses based on their interests, skill level, preferred platform, and career goals.
 
-Unique Features
-Smart Course Recommendations Without Confusion
+Unlike many AI recommendation systems that overwhelm users with too many options or provide incomplete information, this chatbot delivers a clear, structured, and detailed overview of courses in a single response. Instead of forcing users to ask multiple follow-up questions, it provides everything important upfront to help users make faster and smarter learning decisions.
+
+## Unique Features
 
 Most AI systems:
-Recommend too many random courses
-Give incomplete information
-Force users to ask multiple follow-up questions
-Create confusion about which course to choose
 
-This chatbot solves that problem by providing:
+* Recommend random or excessive courses
+* Provide incomplete information
+* Create confusion about which course to choose
 
-	• Focused and relevant course suggestions
-	• Complete course overview in one go
-	• Clear explanation of why a course is recommended
-	• Simple comparison between courses
-	• Guidance on which course should be taken first
-	• Important details users usually forget to ask
-	• What Makes This Chatbot Different?
+This chatbot solves that problem by offering:
 
-The chatbot provides users with:
-Course difficulty level
-Prerequisites required
-Skills covered
-Estimated completion time
-Free vs paid information
-Certificate availability
-Best platform recommendation
-Real-world usefulness of the course
-Whether the course is beginner-friendly
-Suggested learning path after completing the course
+* Focused and relevant course recommendations
+* Complete course overview in one go
+* Clear explanation of why a course is recommended
+* Simple comparison between courses
+* Guidance on which course should be taken first
+* Important details users usually forget to ask
 
-Instead of only sharing a course link, the chatbot acts like a personal learning advisor.
+## What the Chatbot Provides
 
-Tech Stack
-Automation Platform: n8n
-AI Integration: OpenAI API 
-Backend Logic: Workflow automation
-APIs Used: Search APIs
+* Course difficulty level
+* Prerequisites required
+* Skills covered
+* Estimated completion time
+* Free vs paid information
+* Certificate availability
+* Beginner-friendly guidance
+* Best platform recommendation
+* Real-world usefulness of the course
+* Suggested learning roadmap after course completion
 
-How It Works
-	1. User enters a topic they want to learn.
-	2. Chatbot asks intelligent follow-up questions:
-	3. Preferred platform
-	4. Skill level
-	5. Budget
-	6. Career goals
-	7. n8n processes the workflow.
-	8. AI analyzes the request and searches course platforms.
-	9. The chatbot returns:
-	10. Best course options
-	11. Full course overview
-	12. Learning recommendations
-	13. Suggested roadmap
+Instead of simply sharing course links, the chatbot acts like a personal learning advisor.
 
-All in a single clean response.
+## Tech Stack
+
+* **Automation Platform:** n8n
+* **AI Integration:** OpenAI API
+* **Backend Logic:** Workflow automation
+* **APIs Used:** Search APIs
+
+## How It Works
+
+1. User enters a topic they want to learn.
+2. The chatbot asks follow-up questions such as:
+
+   * Preferred platform
+   * Skill level
+   * Budget
+   * Career goals
+3. n8n processes the workflow.
+4. AI analyzes the request and searches course platforms.
+5. The chatbot returns:
+
+   * Best course options
+   * Full course overview
+   * Learning recommendations
+   * Suggested roadmap
+
+All in one clean and easy-to-understand response.
